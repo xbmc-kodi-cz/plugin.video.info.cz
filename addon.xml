@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.info.cz"
+version="0.0.5"
+name="Info.cz"
+provider-name="Petr Čermák, wombat">
+<requires>
+  <import addon="xbmc.python" version="2.25.0"/>
+  <import addon="script.module.dmd-czech.common" version="1.5.5"/>
+  <import addon="script.module.feedparser" version="5.1.3"/>
+  <import addon="script.module.beautifulsoup4" version="4.5.3"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="addon.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Info.cz</summary>
+  <description>Video plugin for Czech news server Info.cz.</description>
+  <description lang="cs">Doplněk pro přehrávání videí z českého zpravodajského webu Info.cz.</description>
+</extension>
+</addon>

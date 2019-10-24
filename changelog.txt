@@ -1,0 +1,5 @@
+v0.0.5 (24.10.2019)
+- Odstraněny prázdné, nepouživané kategorie
+- Podpora Full HD
+- Lepší kvalita náhledů
+- Zrušen dialog načítání
